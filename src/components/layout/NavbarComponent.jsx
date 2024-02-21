@@ -6,13 +6,15 @@ const NavbarComponent = () => {
   return (
     <Navbar expand="lg">
       <Container>
-        <Navbar.Brand href="#home">The Most Awesome Movie Finder App EVER</Navbar.Brand>
+        <Navbar.Brand href="#home" className='text-white'>
+          The Most Awesome Movie Finder App EVER
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
         <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'>
           <Nav>
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">About Us</Nav.Link>
+            <Nav.Link href="#home" className='text-white'>Home</Nav.Link>
+            <Nav.Link href="#link" className='text-white'>About Us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

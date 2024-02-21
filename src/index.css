@@ -4,9 +4,10 @@
   box-sizing: border-box;
 }
 
-nav{
-  background-color: #eee;
-  color: #000;
+nav,
+footer{
+  background-color: #413f3f;
+  color: #fff;
 }
 
 .navbar-nav a.active{
