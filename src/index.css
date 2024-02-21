@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: #eee;
+}
+
 nav,
 footer{
   background-color: #413f3f;

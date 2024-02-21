@@ -14,7 +14,7 @@ const SearchComponent = () => {
 
     return (
         <>
-            <section className="section-search d-flex justify-content-center">
+            <section className="search d-flex justify-content-center">
                 <Form onSubmit={handleSubmit} className='my-4 w-75'>
                     <Form.Group className='text-center mb-3'>
                         <Form.Label className='fs-3 '>

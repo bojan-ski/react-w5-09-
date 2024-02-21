@@ -11,7 +11,7 @@ function App() {
     <>
       <NavbarComponent />
 
-      <main>
+      <main className='my-5'>
         <Container>
           <SearchComponent />
           <SearchResultsComponent />
