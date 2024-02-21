@@ -1,14 +1,15 @@
-import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import SearchResultsComponent from './SearchResultsComponent';
+import { useGlobalContext } from '../../context';
 
 const SearchComponent = () => {
-    const [searchTerm, setSearchTerm] = useState('');
+    const { getMovieDetails } = useGlobalContext()
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        setSearchTerm(e.target[0].value)
+        
+        getMovieDetails(e.target[0].value)
+        e.target[0].value = ''
     }
 
     return (
@@ -32,8 +33,6 @@ const SearchComponent = () => {
                     </Button>
                 </Form>
             </section>
-
-            <SearchResultsComponent searchTerm={searchTerm} />
         </>
 
     );

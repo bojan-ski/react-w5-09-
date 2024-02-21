@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import NavbarComponent from './components/layout/NavbarComponent';
 import FooterComponent from './components/layout/FooterComponent';
 import SearchComponent from './components/search/SearchComponent';
+import SearchResultsComponent from './components/search/SearchResultsComponent';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <main>
         <Container>
           <SearchComponent />
+          <SearchResultsComponent />
         </Container>
       </main>
 

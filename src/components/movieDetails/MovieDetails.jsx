@@ -1,4 +1,6 @@
-const MovieDetails = () => {
+const MovieDetails = (movieData) => {
+  console.log(movieData);
+
   return (
     <div>MovieDetails</div>
   )
