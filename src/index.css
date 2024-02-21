@@ -3,3 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+nav{
+  background-color: #eee;
+  color: #000;
+}
+
+.navbar-nav a.active{
+  background-color: cornflowerblue;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.navbar-nav a:active{
+  transform: scale(.95);
+}
+
