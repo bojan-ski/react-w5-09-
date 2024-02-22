@@ -8,13 +8,17 @@ body{
   background-color: #eee;
 }
 
+main{
+  min-height: 80vh;
+}
+
 nav,
 footer{
   background-color: #413f3f;
   color: #fff;
 }
 
-.navbar-nav a.active{
+.navbar-nav a:hover{
   background-color: cornflowerblue;
   color: #fff;
   border-radius: 10px;
